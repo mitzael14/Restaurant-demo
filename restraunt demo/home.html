@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <title>Restraunt Template</title>
+    </head>
+    <body>
+            <!-- Preloader -->
+        <div id="loader-wrapper">
+        <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+            <!-- End Preloader -->
+
+        <div class="Top-Header">
+            <div class="container">
+                <div class="row">
+                    <div class="Header">
+                        <div class="logo-header">
+                            <!--Src logo goes hear -->
+                            <h1>Restraunt Demo</h1>
+                        </div>
+                        <nav class="navmenu-list">
+                            <ul>
+                                <li><a href="#" class="nav-link">Home</a></li>
+                                <li><a href="#" class="nav-link">Menu</a></li>
+                                <li><a href="#" class="nav-link">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="menu" id="toggle-Button">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start of Home Page-->
+        <section class="Welcome-section">
+            <div class="Welcome-container">
+                <div class="Welcome-content">
+                    <div class="welcome-background">
+                        <h2 class="headerOne">Welcome To</h2>
+                        <h2 class="headerTwo">Restraunt Name</h2>
+                        <p>(RestrauntName)Create by Alexis Mitzael Padilla Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                        <a href="#main" class="Welcome-details">Details</a>
+                    </div>
+                </div>
+                <!--table or something else-->
+            </div>
+        </section>
+        <div class="second">
+            <div class="container" id="main">
+                <section class="about-us-section">
+                    <div class="section-A">
+                        <h2 class="section-A-header">The best Food in town</h2>
+                        <p class="Section-A-description">This is a Mitzael Padilla website template from a restraunt
+                            Fndimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, 
+                            luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. 
+                            Donec vitae sapien ut libero venenatis faucibus. Ettiam sit amet orci eget eros faucibus tincidunt.</p>
+                    </div>
+                    <div class="section-A-image">
+                        <div class="image-shadow">
+                            <!--image-->
+                        </div>
+                    </div>
+                </section>
+                <section class="popular-items">
+                    <!-- Item one -->
+                    <div class="popular-items-container">
+                        <h2 class="popular-items-header">Popular Items</h2>
+                    </div>
+                    <div class="items">
+                        <div class="items-conatiner">
+                            <div class="popular-item">
+                                <img src="img/food/chicken.jpg" width="350px" alt="popular" class="popular-item-img">
+                                <div class="popular-item-description">
+                                    <h3 class="popular-item-title">Item Name</h3>
+                                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="items-conatiner">
+                            <div class="popular-item">
+                                <img src="img/food/lezania.jpg" width="350px" height="230px" alt="popular" class="popular-item-img">
+                                <div class="popular-item-description">
+                                    <h3 class="popular-item-title">Item Name</h3>
+                                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item Three -->
+                        <div class="items-conatiner">
+                            <div class="popular-item">
+                                <img src="img/food/spagete.jpg" width="350px" height="230px" alt="popular" class="popular-item-img">
+                                <div class="popular-item-description">
+                                    <h3 class="popular-item-title">Item Name</h3>
+                                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="restraunt-menu">
+                    <div class="menu-nav">
+                        <ul>
+                            <li><a class="dishes" >All</a></li>
+                            <li><a>Meats</a></li>
+                            <li><a>Fish</a></li>
+                            <li><a>Pastas</a></li>
+                            <li><a>Desserts</a></li>
+                            <li><a>Drinks</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-container-list">
+                        <div data-filter="meats">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Ribeye</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="fish">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Shrimp</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="meats">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Chicken par</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="pastas">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Chicken Alfredo</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="meats">
+                            <div class="menu-item meats">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">New york steak</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="fish">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Crab</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="drinks">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Cola-Cola</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="drinks">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div hhref="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Sprite</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="drinks">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Beer</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="fish">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Shrimp a la Diabla</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="desserts">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Burger</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="desserts">
+                            <div class="menu-item">
+                                <img src="img/food/spagete.jpg" alt="item" class="menu-item-img">
+                                <div href="#" class="menu-item-description">
+                                    <h3 class="menu-item-title">Chicken Nuggets</h3>
+                                    <p class="price">$12.00</p>
+                                    <button class="item-info">BTN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer">
+                    <div class="footer-container">
+                      <div class="footer-wrapper">
+                        <a href="#" class="footer-brand"><img src="#" loading="lazy" width="80" alt="">Restraunt logo/name</a>
+                        <div class="footer-content">
+                          <div id="#" class="footer-block">
+                            <div class="title-small">Instagram</div>
+                            <a href="#" class="footer-link"><img src="#" width="25"></a>
+                          </div>
+                          <div id="#" class="footer-block">
+                            <div class="title-small">Facebook</div>
+                            <a href="#" class="footer-link"><img src="#" width="25"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="footer-divider"></div>
+                    <div class="footer-copyright-center">Copyright © 2021 Alexis Mitzael Padilla</div>
+                  </section>
+            </div>
+        </div>
+    </body>
+    <script src="animation.js"></script>
+</html>
